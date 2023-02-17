@@ -5,8 +5,9 @@ This ToDo List was build as a task for Achievement 1 in [Career Foundry's Full-S
 It is a web application, build with HTML, S/CSS and jQuery. <br>
 
 ### Requirements
-- jQuery is mandatory (via CDN) and will be refactored off of a given JavaScript file
-- HTML to display added items will be generated dynamically, depending on amount of ToDos filled in
+- as a start, project had given HTML, CSS and JavaScript
+- jQuery is mandatory (via CDN) and will be refactored off of the given JavaScript
+- HTML to display/hide added items will be generated dynamically, depending on amount of ToDos filled in/deleted
 
 The ToDo List has following features:
 - user can add a new item (to a list of items)
@@ -37,3 +38,4 @@ At time of writing, there's no npm packages or a build workflow present
 - on Visual Studio Code, install "Live Sass Compiler" extension, this will add a functionality you can comfortably reach via click on "Watch Sass": <br>
 ![Visual Studio Code Screenshot Live Sass Compiler](img/screenshot-watchsass.png)
   - this will run a watcher in your terminal, and will compile everything you do in your `styles.scss` into a `styles.css`
+  - you can now work with your `style.scss`
