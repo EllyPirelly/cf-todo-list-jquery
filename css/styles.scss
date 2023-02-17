@@ -24,10 +24,9 @@ body {
 .container {
   background-color: #fff;
   border-radius: 5px;
-  margin: 0 auto;
-  margin-top: 40px;
+  margin: 40px auto auto;
   padding: 20px;
-  width: 300px;
+  max-width: 350px;
 }
 
 .todo-list-pretext {
@@ -36,10 +35,12 @@ body {
 
 form {
   display: inline-block;
+  width: 100%;
 }
 
 input {
   padding: 4px 15px 4px 5px;
+  width: 100%;
 }
 
 #button {
@@ -47,7 +48,7 @@ input {
   border-radius: 5px;
   color: #ffffff;
   display: inline-block;
-  margin-top: 2px;
+  margin-top: 8px;
   padding: 5px 15px;
   text-align: center;
 
@@ -58,6 +59,7 @@ input {
 }
 
 ol {
+  margin-top: 8px;
   padding-left: 20px;
 }
 
@@ -71,12 +73,19 @@ ol li {
 }
 
 li {
-  & > crossOutButton {
+  & > button {
     background: none;
     border: none;
-    color: #025f70;
+    color: #080808;
     font-weight: 700;
     float: right;
+    padding: 4px;
+
+    &:hover {
+      background-color: #fc999b;
+      color: #fff;
+      cursor: pointer;
+    }
   }
 
   &:hover {
@@ -86,6 +95,7 @@ li {
 
 .strike {
   text-decoration: line-through;
+  text-decoration-thickness: 2px;
 }
 
 .delete {
