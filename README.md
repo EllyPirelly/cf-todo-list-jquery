@@ -12,17 +12,17 @@ It is a web application, build with HTML, S/CSS and jQuery. <br>
 The ToDo List has following features:
 - user can add a new item (to a list of items)
 - user can cross out an item (via click, styling)
-- user can delete an item (via click, styling display hidden)
+- user can delete an item (via click, styling display none)
 - user can change the order of items (via drag and drop)
 
 ### Tools
 - Visual Studio Code
-- GitHub / GitHub Pages
+- GitHub / [ToDo List on GitHub Pages](https://ellypirelly.github.io/todo-list-jquery/)
 - HTML, S/CSS, JavaScript
 - SCSS optional (!)
 - [jQuery via CDN](https://releases.jquery.com/)
-- [Visual Studio Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Visual Studio Extension "Live Sass Compiler"](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
+- [Visual Studio Extension Code "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Visual Studio Extension Code "Live Sass Compiler"](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
 
 ### How to run this?
 At time of writing, there's no npm packages or a build workflow present
