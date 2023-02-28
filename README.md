@@ -63,7 +63,7 @@ At time of writing, there's no npm packages or a build workflow present
 - via command line, unless you already have it, run `npm install -g scss`
   - see more info here: [install Sass](https://sass-lang.com/install)
 - on Visual Studio Code, install "Live Sass Compiler" extension, this will add a functionality you can comfortably reach via click on "Watch Sass": <br>
-  ![Visual Studio Code Screenshot Live Sass Compiler](img/screenshot-watchsass.png)
+  ![Visual Studio Code Screenshot Live Sass Compiler](img/screenshots/screenshot-watchsass.png)
   - this will run a watcher in your terminal, and will compile everything you do in your `styles.scss` into a `styles.css`
   - you can now work with your `style.scss`
 
