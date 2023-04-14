@@ -15,10 +15,10 @@ It is a very small and simple, responsive web application that uses jQuery, wher
 
 ### Project requirements
 
-- change upfront provided vanilla JavaScript to jQuery (via CDN), [see provided Replit here](https://replit.com/@CFCurriculum/jQuery-to-do-list#index.html)
+- change an upfront provided working solution that uses vanilla JavaScript to use jQuery (via CDN), [see provided Replit here](https://replit.com/@CFCurriculum/jQuery-to-do-list#index.html)
 - keep the upfront provided dynamically generated list items and the HTML
 - as a start, keep the upfront provided CSS
-- the ToDo List needs to have following features:
+- the ToDo List already has the following features:
   - user can add a new item
   - user can cross out an item (via click, styling text-decoration line-through)
   - user can delete an item (via click, styling display none)
