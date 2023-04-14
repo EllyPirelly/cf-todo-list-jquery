@@ -2,28 +2,27 @@
 
 ### What is this about?
 
-This ToDo List was build as a mini project for Achievement 1 in [Career Foundry's Full-Stack Web Development Program](https://careerfoundry.com/en/courses/become-a-web-developer/). <br>
-It is a (responsive) web application where a user can add items, cross out items, delete items, change order of items via drag and drop. <br>
+This ToDo List has been built as a mini project for Achievement 1, exercise 9, in [Career Foundry's Full-Stack Web Development Program](https://careerfoundry.com/en/courses/become-a-web-developer/). <br>
+It is a very small and simple, responsive web application that uses jQuery, where a user can add items, cross out items, delete items, change order of items via drag and drop.
 
-[Click here to jump to the bottom to see screenshots](#Screenshots)
+![Screenshot of the Pokemon List](img/screenshots/todo-01-blank.png)
+![Screenshot of the Pokemon List](img/screenshots/todo-02-items.png)
+![Screenshot of the Pokemon List](img/screenshots/todo-03-toggle-delete.png)
+![Screenshot of the Pokemon List](img/screenshots/todo-04-drag-to-order.png)
+![Screenshot of the Pokemon List](img/screenshots/todo-05-alert.png)
 
-### Provided upfront
+[Click here to see the website on GitHub pages](https://ellypirelly.github.io/cf-todo-list-jquery/)
 
-- HTML (list items generated dynamically)
-- CSS
-- vanilla JavaScript
-- [See Replit here](https://replit.com/@CFCurriculum/jQuery-to-do-list#index.html)
+### Project requirements
 
-### Requirements
-
-- change provided vanilla JavaScript to jQuery (via CDN)
-
-The ToDo List needs to have following features:
-
-- user can add a new item (to a list of items)
-- user can cross out an item (via click, styling)
-- user can delete an item (via click, styling display none)
-- user can change the order of items (via drag and drop)
+- change upfront provided vanilla JavaScript to jQuery (via CDN), [see provided Replit here](https://replit.com/@CFCurriculum/jQuery-to-do-list#index.html)
+- keep the upfront provided dynamically generated list items and the HTML
+- as a start, keep the upfront provided CSS
+- the ToDo List needs to have following features:
+  - user can add a new item
+  - user can cross out an item (via click, styling text-decoration line-through)
+  - user can delete an item (via click, styling display none)
+  - user can change the order of items (via drag and drop)
 
 ### Nice to have, requirements by myself
 
@@ -39,18 +38,19 @@ The ToDo List needs to have following features:
 
 ### Sources
 
-- [jQuery via CDN](https://releases.jquery.com/)
+- [how to install Sass](https://sass-lang.com/install)
 
 ### Tools, Extensions
 
 - Visual Studio Code
-- GitHub / [ToDo List on GitHub Pages](https://ellypirelly.github.io/todo-list-jquery/)
-- [Visual Studio Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-- [Visual Studio Extension "Live Sass Compiler"](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
+- GitHub / [ToDo List on GitHub Pages](https://ellypirelly.github.io/cf-todo-list-jquery/)
+- [jQuery via CDN](https://releases.jquery.com/)
+- [Visual Studio Code Extension "Live Server"](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+- [Visual Studio Code Extension "Live Sass Compiler"](https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass)
 
 ### How to run this?
 
-At time of writing, there's no npm packages or a build workflow present
+No build workflow.
 
 - clone the repo
 - `cd` into project
@@ -66,12 +66,3 @@ At time of writing, there's no npm packages or a build workflow present
   ![Visual Studio Code Screenshot Live Sass Compiler](img/screenshots/screenshot-watchsass.png)
   - this will run a watcher in your terminal, and will compile everything you do in your `styles.scss` into a `styles.css`
   - you can now work with your `style.scss`
-
-### Screenshots
-
-#### 320px
-
-![320-1](img/screenshots/320-1.png)
-![320-2](img/screenshots/320-2.png)
-![320-3](img/screenshots/320-3.png)
-![alert](img/screenshots/alert.png) <br>
